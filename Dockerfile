@@ -8,7 +8,7 @@
 # Contributors:
 #   Red Hat, Inc. - initial API and implementation
 
-FROM python:3.7.4-slim
+FROM python:3.8.5-slim
 
 ENV HOME=/home/theia
 
