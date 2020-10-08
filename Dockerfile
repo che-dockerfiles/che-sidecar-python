@@ -20,6 +20,7 @@ RUN mkdir /projects ${HOME} && \
     done
 
 RUN apt-get update && \
+    apt-get install exuberant-ctags && \
     apt-get install wget -y && \
     wget -O - https://deb.nodesource.com/setup_12.x | bash - && \
     apt-get update && \
